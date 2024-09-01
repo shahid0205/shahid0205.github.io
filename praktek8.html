@@ -1,0 +1,54 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Form Pendaftaran Mahasiswa Baru UPI YPTK Padang</title>
+</head>
+<body bgcolor="magenta">
+<center>
+	<h1>FORMULIR PENDAFTARAN MAHASISWA BARU</h1>
+</center>
+	<form action="aksi_daftar.php" method="POST" >
+		<table border="5" bgcolor="yellow" align="center" height="550" width="450" cellpadding="30">
+			<tr>
+				<td>
+					<b><font color="red" size="6">Pendaftaran</font></b>
+					<p><b>Silahkan isi data dengan lengkap..</b></p>
+					<input type="text" name="nis" size="46" placeholder="nis anda">
+					<br><br>
+					<input type="text" name="nama_lengkap" size="20" placeholder="Nama Lengkap">
+					<input type="text" name="nama_panggilan" size="20" placeholder="Nama Panggilan">
+					<br><br>
+					<input type="email" name="email" size="46" placeholder="Email Anda">
+					<br><br>
+					<input type="number" name="nohp" placeholder="Nohp">
+					<br><br>
+					<input type="password" name="password" size="46" placeholder="Password">
+					<p><b>Tanggal Lahir</b></p>
+					<input type="date" name="date">
+					<br><br>
+					<input type="text" name="alamat" size="46" placeholder="Alamat">
+					<br><br>
+					<input type="text" name="asal_sekolah" size="46" placeholder="Asal Sekolah">
+					<br><br>
+					<label>Agama</label>
+					<select name="Agama">
+						<option value="islam">Islam</option>
+						<option value="kristen">Kristen</option>
+						<option value="katolik">Katolik</option>
+						<option value="budha">Budha</option>
+						</select>
+					<br><br>
+					<label>Jenis Kelamin</label>
+					<input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+					<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+					<br><br>
+					<button><a href="Beranda.html"> Login</button>
+				</td>
+			</tr>
+		</table>
+
+	
+		</fieldset>
+	</form>
+</body>
+</html>
